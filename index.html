@@ -9,17 +9,19 @@
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
-    <nav id="desktop-nav">
-      <div class="logo">Dedi Panggabean</div>
-      <div class="container">
-        <ul class="nav-links">
-          <li><a class="a" href="#about">About</a></li>
-          <li><a class="a" href="#experience">Experience</a></li>
-          <li><a class="a" href="#projects">Projects</a></li>
-          <li><a class="a" href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+    <div class="header">
+      <nav id="desktop-nav">
+        <div class="logo">My Portfolio</div>
+        <div class="container">
+          <ul class="nav-links">
+            <li><a class="a" href="#about">About</a></li>
+            <li><a class="a" href="#experience">Experience</a></li>
+            <li><a class="a" href="#projects">Projects</a></li>
+            <li><a class="a" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <nav id="hamburger-nav">
       <div class="logo">Dedi Panggabean</div>
       <div class="hamburger-menu">
@@ -58,31 +60,173 @@
         </div>
         <div id="socials-container">
           <img
-            src="/assets/linkedin.png"
+            src="./assets/linkedin.png"
             alt="linkedinprofile"
             class="icon"
             onclick="location.href='https:www.linkedin.com/in/dedi-panggabean-569a57272/'"
           />
           <img
-            src="/assets/github.png"
+            src="./assets/github.png"
             alt="githubprofile"
             class="icon"
             onclick="location.href='https:github.com/settings/profile'"
           />
           <img
-            src="/assets/instagram.png"
+            src="./assets/instagram.png"
             alt="instagramprofile"
             class="icon"
             onclick="location.href='https:instagram.com/dediampanggabean?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D'"
           />
           <img
-            src="/assets/facebook.png"
+            src="./assets/facebook.png"
             alt="facebookprofile"
             class="icon"
             onclick="location.href='https:web.facebook.com/dedi.andre.56884?locale=id_ID'"
           />
         </div>
       </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+                onclick="location.href='https:www.del.ac.id/'"
+              />
+              <h3>Insitut Teknologi Del</h3>
+              <p><br />Informatics Undergraduate Student</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/location.png"
+                alt="Education icon"
+                class="icon"
+                onclick="location.href='https:maps.app.goo.gl/jhxpWxC8KkL4CdeD9'"
+              />
+              <h3>Address</h3>
+              <p>Sipoholon, North Tapanuli Regency, North Sumatra 22543</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+              reprehenderit et laborum, rem, dolore eum quod voluptate
+              exercitationem nobis, nihil esse debitis maxime facere minus sint
+              delectus velit in eos quo officiis explicabo deleniti dignissimos.
+              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+              reiciendis ea magnam? Nulla, impedit fuga!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Get To Know My Experience</p>
+      <h1 class="title">My Experience</h1>
+      <div class="section-container">
+        <main class="row">
+          <section class="col">
+            <header>
+              <h2>Education</h2>
+            </header>
+            <div class="contens">
+              <div class="box">
+                <h3>Institut Teknologi Del</h3>
+                <h4>2021-present</h4>
+                <p>
+                  <em> Laguboti, Toba Regency, North Sumatra </em>
+                </p>
+                <p>Informatics Study Program</p>
+              </div>
+              <div class="box">
+                <h3>SMA Negeri 3 Tarutung</h3>
+                <h4>2017-2020</h4>
+                <p>
+                  <em> Tarutung, North Tapanuli Regency, North Sumatra </em>
+                </p>
+                <p>Math and Science Major</p>
+              </div>
+              <div class="box">
+                <h3>SMP Swasta Santa Maria Tarutung</h3>
+                <h4>2014-2017</h4>
+                <p>
+                  <em> Tarutung, North Tapanuli Regency, North Sumatra </em>
+                </p>
+              </div>
+              <div class="box">
+                <h3>SD Swasta Latihan HKBP Pearaja Tarutung</h3>
+                <h4>2008-2014</h4>
+                <p>
+                  <em> Tarutung, North Tapanuli Regency, North Sumatra </em>
+                </p>
+              </div>
+              <div class="box">
+                <h3>TK Pembina HKBP Tarutung</h3>
+                <h4>2007-2008</h4>
+                <p>
+                  <em> Tarutung, North Tapanuli Regency, North Sumatra </em>
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="col">
+            <header>
+              <h2>Organizational</h2>
+            </header>
+            <div class="contens">
+              <div class="box">
+                <h3>STUDENT CONSULTATIVE ASSEMBLY (MPM) KM IT DEL</h3>
+                <h4>2023-present</h4>
+                <p>Chairman</p>
+                <h4>2022-2023</h4>
+                <p>Commission B (Finance and Logistic)</p>
+              </div>
+              <div class="box">
+                <h3>IT Del Fest 2023</h3>
+                <h4>2023</h4>
+                <p>Chairman</p>
+              </div>
+              <div class="box">
+                <h3>GENERAL ELECTION COMMISSIONS(KPU) IT Del 2023</h3>
+                <h4>2023</h4>
+                <p>Chairman</p>
+              </div>
+              <div class="box">
+                <h3>CLASS REPRESENTATIVE ASSEMBLY(MPK)</h3>
+                <h4>2015-2016</h4>
+                <p>Chairman</p>
+                <h4>2014-2015</h4>
+                <p>Commission B</p>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
     </section>
     <script src="script.js"></script>
   </body>
