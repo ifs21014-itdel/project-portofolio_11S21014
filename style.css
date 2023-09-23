@@ -425,3 +425,122 @@ main.row {
     align-items: flex-start; /* Pusatkan ke kiri ketika di-minimize */
   }
 }
+
+/*skill*/
+.skill {
+  width: 500px;
+  margin: 150px auto;
+  color: black;
+  padding: 3px;
+  box-shadow: 0px 14px 28px rgba(0, 0, 0, 25), 0 10px 10px rgba(0, 0, 0, 22);
+}
+
+.skill li {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.bar {
+  background: #353b48;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 12), 0 1px 2px rgba(0, 0, 0, 24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.bar {
+  box-shadow: 0px 14px 28px rgba(0, 0, 0, 25), 0 10px 10px rgba(0, 0, 0, 22);
+}
+
+.bar span {
+  height: 20px;
+  float: left;
+  background: linear-gradient(
+    135deg,
+    rgba(236, 0, 140, 1) 0%,
+    rgba(252, 103, 103, 1) 100%
+  );
+}
+
+.html {
+  width: 70%;
+  animation: html 3s;
+}
+
+.css {
+  width: 50%;
+  animation: css 3s;
+}
+
+.java {
+  width: 50%;
+  animation: java 3s;
+}
+
+.c {
+  width: 50%;
+  animation: c 3s;
+}
+
+.javascript {
+  width: 20%;
+  animation: javascript 3s;
+}
+
+.python {
+  width: 50%;
+  animation: python 3s;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes java {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes c {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 20%;
+  }
+}
+@keyframes python {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
